@@ -13,7 +13,7 @@ public class RandomMoveStrategy implements MoveStrategy {
         this.random = random;
     }
 
-    public static MoveStrategy of(Random random) {
+    public static RandomMoveStrategy of(Random random) {
         return new RandomMoveStrategy(random);
     }
 
